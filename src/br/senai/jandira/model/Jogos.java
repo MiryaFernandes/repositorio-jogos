@@ -36,10 +36,13 @@ public class Jogos {
 	public Console getConsole() {
 		return console;
 	}
+	public void setConsole(Console console) {
+		this.console = console;
+	}
 	public String getObservacoes() {
 		return observacoes;
 	}
 	public void setObservacoes(String observacoes) {
 		this.observacoes = observacoes;
-	}  
+	}
 }

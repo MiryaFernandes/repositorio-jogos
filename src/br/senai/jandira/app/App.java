@@ -14,20 +14,23 @@ public class App {
 		primeiro.setNome("Farcry 4");
 		primeiro.setValor(140);
 		primeiro.setConsole(Console.NINTENDO_SWITCH);
-		primeiro.setObservacoes("Ainda não concluido.");
+		primeiro.setObservacoes("Um pouco complicado.");
+		primeiro.setConcluido(true);
 		versao1.gravar(primeiro, 0);
+		
         
 		Jogos segundo = new Jogos();
 		segundo.setNome("Devil may cry");
 		segundo.setValor(140);
 		segundo.setConsole(Console.NINTENDO_SWITCH);
-		segundo.setObservacoes("Ainda não concluido.");
+		segundo.setObservacoes("Bem divertido.");
 		versao1.gravar(segundo, 1);
 		
-		System.out.println(versao1.listarJogos(0).getNome());
-		System.out.println(versao1.listarJogos(0).getConsole());
-		System.out.println(versao1.listarJogos(1).getNome());
-        
+		System.out.println(primeiro.getNome());
+		System.out.println(primeiro.getConsole());
+		System.out.println(segundo.getNome());
+        System.out.println(segundo.getObservacoes());
+        System.out.println(primeiro.isConcluido());
  		
 	}
 
