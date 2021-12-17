@@ -2,6 +2,7 @@ package br.senai.jandira.model;
 
 public enum Fabricante {
 	
+<<<<<<< HEAD
 	SEGA("SEGA", 1952),
 	CAPCOM("CAPCOM", 1983),
 	BAMDAI("BANDAI NAMCO", 2005),
@@ -19,5 +20,19 @@ public enum Fabricante {
 	VALVE("VALVE", 1996),
 	EPIC("EPIC GAMES", 1991),
 	TWOK("2K", 2005);
+=======
+	private String fabricantes;
+	
+	private String getFabricantes() {
+		return fabricantes;
+	}
+	
+	public void setFabricantes(String fabricantes) {
+		this.fabricantes = fabricantes;
+	}
+	
+		
+	
+>>>>>>> 3c723b2e7061d9430aab55c09fb3cd507bcb7d92
 
 }
