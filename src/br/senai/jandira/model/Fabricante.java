@@ -1,8 +1,23 @@
 package br.senai.jandira.model;
 
-public class Fabricante {
+public enum Fabricante {
 	
-	System.out.println
+	SEGA("SEGA", 1952),
+	CAPCOM("CAPCOM", 1983),
+	BAMDAI("BANDAI NAMCO", 2005),
+	NINTENDO("NINTENDO", 1889),
+	EA("ELECTRONIC ARTS", 1982),
+	SE("SQUARE ENIX", 2003),
+	UBISOFT("UBISOFT", 1986),
+	SONY("SONY", 1993),
+	ROCKSTAR("ROCKSTAR", 1998),
+	ND("NAUGHTY DOG", 1984),
+	MOJANG("MOJANG", 2009),
+	TELLTALE("TELLTALE", 2009),
+	ACTIVISION("ACTIVISION", 1979),
+	BLIZZARD("BLIZZARD", 1991),
+	VALVE("VALVE", 1996),
+	EPIC("EPIC GAMES", 1991),
+	TWOK("2K", 2005);
 
-	
 }
